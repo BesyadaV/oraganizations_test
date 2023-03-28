@@ -1,6 +1,6 @@
 import React from 'react';
 import {useSelector} from "react-redux";
-import {selectAllOrganizationsIds, selectFilteredOrganizationsIds} from "../../redux/slices/organizationsSlice";
+import {selectFilteredOrganizationsIds} from "../../redux/slices/organizationsSlice";
 import Organization from "../../components/Organization/Organization";
 import {Grid, Typography} from "@mui/material";
 

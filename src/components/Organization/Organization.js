@@ -8,9 +8,8 @@ const Organization = ({id}) => {
   const organizationData = useSelector(selectOrganizationById(id));
   console.log(organizationData);
   return (
-    <Card className={styles.card}>
+    <Card>
       <CardContent>
-
         <Typography variant="h5" component="div">
           {organizationData.name}
         </Typography>
@@ -41,11 +40,6 @@ const Organization = ({id}) => {
             </Typography>
           </div>
         </div>
-        {/*<Typography variant="body2">*/}
-        {/*  well meaning and kindly.*/}
-        {/*  <br />*/}
-        {/*  {'"a benevolent smile"'}*/}
-        {/*</Typography>*/}
       </CardContent>
     </Card>
   );
