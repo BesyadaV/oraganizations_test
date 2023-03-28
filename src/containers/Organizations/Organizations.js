@@ -6,7 +6,7 @@ import {Grid, Typography} from "@mui/material";
 
 const Organizations = () => {
   const organizationsListIds = useSelector(selectFilteredOrganizationsIds);
-  console.log(organizationsListIds)
+
   if (!organizationsListIds.length) {
     return (
       <div>

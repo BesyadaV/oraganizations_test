@@ -6,7 +6,7 @@ import styles from './Organization.module.scss'
 
 const Organization = ({id}) => {
   const organizationData = useSelector(selectOrganizationById(id));
-  console.log(organizationData);
+
   return (
     <Card>
       <CardContent>
